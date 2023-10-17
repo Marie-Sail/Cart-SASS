@@ -1,0 +1,37 @@
+:root {
+    display: flex;
+    justify-content: center;
+}
+
+
+$colorFont: black;
+
+section {
+    width: 45em;
+    height: 20em;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.986);
+    justify-content: center;
+    border: 5px solid rgb(244, 129, 29);
+    border-radius: 30%;
+
+    img {
+        margin: 1em;
+        background-color: rgb(244, 129, 29);
+        border-radius: 90%;
+
+    }
+
+    h1 {
+        color: $colorFont;
+        display: flex;
+        justify-content: center;
+    }
+
+    p {
+        margin: 1em;
+        color: $colorFont;
+    }
+
+
+}
